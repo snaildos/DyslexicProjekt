@@ -1,0 +1,26 @@
+{
+  "name": "DyslexiaProjekt",
+  "version": "1.0.0",
+  "description": "Changes text files to a easier too use view",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "undefined"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "build": "electron-builder build --win --publish never",
+    "deploy": "electron-builder build --win --publish always"
+  },
+  "author": "SnailDOS",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "5.0.13",
+    "electron-builder": "^20.40.2"
+  },
+  "dependencies": {
+    "isdev": "^1.0.1",
+    "jquery": "^3.6.0"
+  }
+}
